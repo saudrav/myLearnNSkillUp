@@ -8,7 +8,7 @@ public class DBUtil {
 
 	public static Connection getConnection() {
 		
-		String url = "jdbc:mysql://localhost:3306/my_db" ;
+		String url = "jdbc:mysql://localhost:3306/employeedb" ;
 		Connection conn=null;
 		
 		try {
