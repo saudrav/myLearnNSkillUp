@@ -1,0 +1,18 @@
+	1. Start ZooKeeper
+
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+
+	2. Start Kafka-server
+
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+--------------------------------------------------------------------------------------------------------
+
+kafka-topics.bat --bootstrap-server localhost:9092 --topic AnimalTopic --create --partitions 3 --replication-factor 1
+
+---------------------------------------------------------------------------------------------------------
+
+HTTP Method: POST
+URL: http://localhost:9090/publish/Tiger
+
