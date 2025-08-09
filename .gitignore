@@ -2,3 +2,7 @@
 *.class
 *.class
 Spring-Framework/1_Spring-demo_Draw-Shape/target/classes/com/cts/controller/DrawingApp.class
+/learnProgramming/practice/.idea/
+learnProgramming/practice/.idea/misc.xml
+/learnProgramming/.idea
+learnProgramming/learnProgramming.iml
