@@ -11,8 +11,8 @@ public class StartSpringFrameworkApplication {
 	public static void main(String[] args) {
 		//SpringApplication.run(StartSpringFrameworkApplication.class, args);
 
-        //MarioGame game = new MarioGame();
-        SuperContraGame game = new SuperContraGame();
+        MarioGame game = new MarioGame();
+        //SuperContraGame game = new SuperContraGame();
 
         GameRunner runner = new GameRunner(game);
         runner.run();

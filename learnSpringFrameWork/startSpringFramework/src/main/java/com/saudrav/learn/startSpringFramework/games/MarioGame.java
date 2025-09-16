@@ -1,6 +1,8 @@
 package com.saudrav.learn.startSpringFramework.games;
 
-public class MarioGame {
+import com.saudrav.learn.startSpringFramework.service.GameRunnerConsole;
+
+public class MarioGame implements GameRunnerConsole {
 
     public String up() {
         return "Mario jumps";

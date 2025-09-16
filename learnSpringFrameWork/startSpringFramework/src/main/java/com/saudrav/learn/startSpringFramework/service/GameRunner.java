@@ -6,9 +6,10 @@ import com.saudrav.learn.startSpringFramework.games.SuperContraGame;
 public class GameRunner {
 
     //private MarioGame game;
-    private SuperContraGame game;
+    //private SuperContraGame game;
+    private GameRunnerConsole game;
 
-    public GameRunner(SuperContraGame game) {
+    public GameRunner(GameRunnerConsole game) {
         this.game = game;
     }
 

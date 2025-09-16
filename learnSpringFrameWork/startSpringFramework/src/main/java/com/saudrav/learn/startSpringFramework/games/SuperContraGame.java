@@ -2,7 +2,7 @@ package com.saudrav.learn.startSpringFramework.games;
 
 import com.saudrav.learn.startSpringFramework.service.GameRunnerConsole;
 
-public class SuperContraGame {
+public class SuperContraGame implements GameRunnerConsole {
 
     public String up() {
         return "SuperContraGame up";
