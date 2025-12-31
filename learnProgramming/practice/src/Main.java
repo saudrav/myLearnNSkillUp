@@ -1,18 +1,34 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
 
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         System.out.println("Hello and welcome!");
+        int a = 5;
+        fibonacci(a);
+        
+    }
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+    //create fibonacci method
+    public static void fibonacci(int n) {
+        int a = 0;
+        int b = 1;
+        int c = 0;
+        for (int i = 0; i < n; i++) {
+            System.out.printf("%d ", a);
+            c = a + b;
+            a = b;
+            b = c;
+        }
+    }
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+    //create method to print even number from list of numbers
+    public static void printEvenNumbers(int[] numbers) {
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                System.out.printf("%d ", numbers[i]);
+            }
         }
     }
 }
